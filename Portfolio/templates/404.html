@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Page Not Found|BRIGHT WIREDU - Portfolio</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+  <link href="{% static 'assets/img/favicon.png'%}" rel="icon">
+  <link href="{% static 'assets/img/apple-touch-icon.png'%}" rel="apple-touch-icon">
+  
+    <!-- Google Fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+ <link href="  {% static 'assets/css1/style.css'%}" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="profile">
+    <img src="{% static 'assets/img/pro-img.jpg'%}" alt="" class="img-fluid rounded-circle">
+    <h1><a href="index.html">Bright WIREDU</a></h1>
+    <div class="social-links">
+      <a href="https://twitter.com/__nayar" class="twitter"><i class="bx bxl-twitter"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100009004431913" class="facebook"><i class="bx bxl-facebook"></i></a>
+      <a href="https://www.instagram.com/wiredubryte?igsh=MWtrb3RkcmZ2NzN0ZA%3D%3D&utm_source=qr" class="instagram"><i class="bx bxl-instagram"></i></a>
+      <!--<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>-->
+      <a href="https://www.linkedin.com/in/bright-wiredu-nuakoh-b24b02214/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    </div>
+  </div>
+</header><!-- End Header -->
+
+<div class="jumbotron">
+  <h1 class="display-4">Page Not Found!</h1>
+  <p class="lead">This page is missing or does not exist.</p>
+  <hr class="my-4">
+  <p>Seems you are trying to reach our page. Sorry, but this page doesn't exist.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="{% url 'index' %}" role="button">Go to our Home Page</a>
+  </p>
+</div>
+
+<!-- ======= Footer ======= -->
+<footer>
+  <div class="container">
+    <div class="credits">
+      &copy; <script>document.write(new Date().getFullYear())</script> Bright's Portfoio, <strong><span>All Rights Reserved.</span></strong>
+      Designed by <a href="#">BrightWIREDU</a>
+    </div>
+  </div>
+</footer><!-- End  Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+</body>
+</html>
